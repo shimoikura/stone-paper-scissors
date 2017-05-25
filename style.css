@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+#round{
+  text-align: center;
+  font-size: 40px;
+}
+#round-col{
+  color: red;
+}
+
+/*--------myself-side---------*/
+.myself-side{
+  width: 450px;
+  margin-left: 50px;
+  float: left;
+  background-color: red;
+  padding-left: 60px;
+}
+.myself-side h2{
+  text-align: center;
+  font-size: 40px;
+}
+.myself-side img{
+  width: 400px;
+}
+.select{
+  list-style: none;
+  font-size: 0;
+}
+.select li{
+  font-size: 24px;
+  display: inline-block;
+
+}
+
+/*-------VS-rogo------*/
+.fight-rogo{
+  width: 100px;
+  float: left;
+  margin: 200px 10px;
+  background-color: pink;
+}
+.fight-rogo table{
+  width: 100%;
+}
+.fight-rogo table tr{
+  height: 40px;
+}
+.fight-rogo td{
+  height: 100%;
+}
+.fight-rogo h1{
+  font-size: 50px;
+  letter-spacing: .2em;
+}
+
+/*--------enemy-side---------*/
+.enemy-side{
+  width: 450px;
+  float: left;
+  background-color: blue;
+  padding-left: 50px;
+
+}
+.enemy-side h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+/*--------common--------*/
+#img-stone{
+  display: block;
+}
+#img-paper{
+  display: none;
+}
+#img-scissors{
+  display: none;
+}
