@@ -10,7 +10,7 @@ h1{
   font-size: 40px;
 }
 #round-col{
-  color: red;
+  /*color: red;*/
 }
 
 /*--------myself-side---------*/
@@ -18,7 +18,7 @@ h1{
   width: 450px;
   margin-left: 50px;
   float: left;
-  background-color: red;
+  /*background-color: red;*/
   padding-left: 60px;
 }
 .myself-side h2{
@@ -35,7 +35,11 @@ h1{
 .select li{
   font-size: 24px;
   display: inline-block;
-
+}
+.win-num-box{
+}
+.btn{
+  
 }
 
 /*-------VS-rogo------*/
@@ -43,7 +47,7 @@ h1{
   width: 100px;
   float: left;
   margin: 200px 10px;
-  background-color: pink;
+  /*background-color: pink;*/
 }
 .fight-rogo table{
   width: 100%;
@@ -63,7 +67,7 @@ h1{
 .enemy-side{
   width: 450px;
   float: left;
-  background-color: blue;
+  /*background-color: blue;*/
   padding-left: 50px;
 
 }

@@ -2,7 +2,7 @@ $(document).ready (function(){
   var result1;
   var result2;
   var round_num = 1;
-  var win_num = 1;
+  var win_num = 0;
   $(".btn").click(function(){
      var pattern = $(this).attr("id");
 //  my choose
@@ -48,7 +48,6 @@ $(document).ready (function(){
       round_num++;
       $("#round-col").text(round_num);
       $("#result-text").text("lose");
-
     }
     else if ((result1 > result2 && result3 == 2)||(result1 < result2 && result3 == 3)||(result1 > result2 && result3 == 6)) {
       // 勝ち
@@ -56,7 +55,7 @@ $(document).ready (function(){
       win_num++;
       $("#round-col").text(round_num);
       $("#result-text").text("win");
-
+      $("#win-num").text(win_num);
     }
     else {
       $("#result-text").text("aiko");
@@ -65,7 +64,8 @@ $(document).ready (function(){
 
   $("#btn-reset").click(function(){
     round_num = 1;
-    win_num = 1;
+    win_num = 0;
+    $("#win-num").text(win_num);
     $("#round-col").text(round_num);
     $("#result-text").text("");
   });
