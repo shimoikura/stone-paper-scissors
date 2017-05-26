@@ -30,24 +30,21 @@
 <!-- myself-side -->
     <div class="myself-side">
       <h2><?php echo $myname; ?></h2>
-      <img id="img-stone" src="img/stone.jpg" alt="" style="width: 400px;">
-      <img id="img-paper" src="img/paper.jpg" alt="" style="width: 400px;">
-      <img id="img-scissors" src="img/scissors.jpg" alt="" style="width: 400px;">
+      <img id="img-stone" src="img/stone.jpg" alt="" style="height: 400px;">
+      <img id="img-paper" src="img/paper.jpg" alt="" style="height: 400px;">
+      <img id="img-scissors" src="img/scissors.jpg" alt="" style="height: 400px;">
       <ul class="select">
         <li><input class="btn" id="btn-stone" type="submit" name="action" value="stone" /></li>
         <li><input class="btn" id="btn-paper" type="submit" name="action"/ value="paper"></li>
         <li><input class="btn" id="btn-scissors" type="submit" name="action" value="scissors"></li>
         <li><input id="btn-reset" type="submit" name="reset" value="RESET"/></li>
       </ul>
-      <div class="win-num-box">
-        <table>
-          <tr>
-            <td>win count</td>
-            <td><h1 id="win-num">0</h1></td>
-          </tr>
-        </table>
-
-      </div>
+      <table>
+        <tr>
+          <td>win count</td>
+          <td><h1 id="win-num">0</h1></td>
+        </tr>
+      </table>
     </div>
 
 <!-- fight-rogo -->

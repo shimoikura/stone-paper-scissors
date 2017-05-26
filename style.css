@@ -25,10 +25,8 @@ h1{
   text-align: center;
   font-size: 40px;
 }
-.myself-side img{
-  width: 400px;
-}
 .select{
+  text-align: center;
   list-style: none;
   font-size: 0;
 }
@@ -36,10 +34,38 @@ h1{
   font-size: 24px;
   display: inline-block;
 }
-.win-num-box{
+.select li input{
+  margin-right: 4px;
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
 }
-.btn{
-  
+#btn-reset{
+  margin-right: 4px;
+    background-color: #f44336; /* Red */
+    border: 1px solid red;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.myself-side table{
+  width: 200px;
+  margin: 20px auto 0;
+  display: block;
+}
+#win-num{
+  margin-left: 6px;
 }
 
 /*-------VS-rogo------*/
@@ -47,20 +73,26 @@ h1{
   width: 100px;
   float: left;
   margin: 200px 10px;
+  position: relative;
   /*background-color: pink;*/
 }
-.fight-rogo table{
-  width: 100%;
-}
-.fight-rogo table tr{
-  height: 40px;
-}
-.fight-rogo td{
-  height: 100%;
-}
-.fight-rogo h1{
+#result-text{
   font-size: 50px;
   letter-spacing: .2em;
+}
+.fight-rogo input{
+  position: absolute;
+  top:150px;
+  left:0;
+  background-color: #008CBA; /* Blue */
+  border: 1px solid blue;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 12px;
 }
 
 /*--------enemy-side---------*/
@@ -74,6 +106,14 @@ h1{
 .enemy-side h2{
   text-align: center;
   font-size: 40px;
+}
+.lose-num-box table{
+  width: 200px;
+  margin: 55px auto 0;
+  display: block;
+}
+#lose-num{
+  margin-left: 6px;
 }
 
 /*--------common--------*/
